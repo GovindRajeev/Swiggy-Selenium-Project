@@ -1,0 +1,45 @@
+# Swiggy Maven Automation Framework
+
+Automation testing framework for the Swiggy web application using Selenium WebDriver, TestNG, and Maven.
+
+## Overview
+
+This project demonstrates automated functional testing of the Swiggy web application using Selenium with Java. The framework is built using Maven for dependency management and TestNG for test execution and reporting.
+
+The project follows a scalable automation framework structure to support maintainable and reusable test scripts.
+
+---
+
+## Tech Stack
+
+- Java
+- Selenium WebDriver
+- TestNG
+- Maven
+
+---
+
+## Features
+
+✔ Automated Functional Testing  
+✔ TestNG Execution & Reporting  
+✔ Maven Dependency Management  
+✔ Reusable Test Framework  
+✔ UI Validation Testing  
+✔ Regression Testing  
+
+---
+
+## Project Structure
+
+```bash
+swiggy-maven-project/
+│
+├── src
+│   ├── main/java
+│   ├── test/java
+│
+├── target
+├── test-output
+├── pom.xml
+├── testng.xml
