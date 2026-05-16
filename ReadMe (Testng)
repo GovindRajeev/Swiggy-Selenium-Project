@@ -1,0 +1,48 @@
+# Swiggy Automation Testing Framework
+
+Automation testing framework for the Swiggy web application using Selenium WebDriver, Java, TestNG, and Maven.
+
+## Overview
+
+This project is designed to automate functional testing workflows of the Swiggy web application. The framework follows a modular structure with reusable page classes, utility components, and TestNG-based execution for scalable and maintainable automation testing.
+
+## Tech Stack
+
+- Java
+- Selenium WebDriver
+- TestNG
+- Maven
+- Page Factory Design Pattern
+- Apache POI (Excel Handling)
+
+---
+
+## Project Features
+
+x Automated UI Testing  
+x Functional Testing  
+x TestNG Test Execution  
+x Reusable Page Object Model  
+x Excel Data Handling  
+x Screenshot Capture Utility  
+x Scalable Automation Framework  
+
+---
+
+## Project Structure
+
+```bash
+swiggy-testng/
+│
+├── src/com
+│   ├── swiggy
+│   │   ├── pagefactory
+│   │   ├── test
+│   │
+│   ├── utilitiesread
+│       ├── ReadFromExcelUtilities.java
+│       ├── ScreenShots.java
+│
+├── test-output
+├── pom.xml
+├── testng.xml
